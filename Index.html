@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handle errors in JavaScript</title>
+</head>
+<body>
+    <H1>Error message</H1>
+    <p>If there would be any error then it would be shown as alert message.</p>
+    <H1 id="errorMessage"></H1>
+    <Script>
+        try {
+            alert("Check ur JavaScript code Mr/Mrs 😡😡😡")
+        }
+        catch(err) {
+            document.getElementById("errorMessage").innerHTML = err.message
+        }
+
+    </Script>
+</body>
+</html>
